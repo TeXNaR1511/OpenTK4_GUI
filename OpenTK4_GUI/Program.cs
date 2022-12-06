@@ -12,6 +12,7 @@ namespace OpenTK4_GUI
             {
                 Size = new Vector2i(800, 600),
                 Title = "LearnOpenTK - Camera",
+                WindowState = WindowState.Fullscreen,
                 // This is needed to run on macos
                 Flags = ContextFlags.ForwardCompatible,
             };
